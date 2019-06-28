@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 const configureMiddleware = require('./middleware/config-mw');
-const admin = require('./routers/movies-router')
+const movies = require('./routers/movies-router')
 
 configureMiddleware(server);
 
